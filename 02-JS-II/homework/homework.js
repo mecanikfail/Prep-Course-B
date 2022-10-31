@@ -7,8 +7,7 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código: 
-  var devolverString = "str"
-  return str;
+   return str;
   }
   
   function suma(x, y) {
@@ -55,18 +54,34 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (str1 === str2) {
+    return true;
+    } else {
+      return false;
+    }
+
   }
   
   function menosQueNoventa(num) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (num < 90) {
+      return true;
+    } else {
+      return false;
+    }
   }
   
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (num > 50) {
+      return true;
+    } else {
+      return false;
+    }
   }
   
   function obtenerResto(x, y) {
@@ -78,6 +93,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
+    
   }
   
   function esImpar(num) {
